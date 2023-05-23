@@ -5,10 +5,11 @@
 
 int main(int argc, char *argv[]) {
 	int num=0;
-	while(num<=5){
+	do
+	{
 		printf("%d\n",num);
 		num++;
 	}
-
+	while(num<=5);
 	return 0;
 }
